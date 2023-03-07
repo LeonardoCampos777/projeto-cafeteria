@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header{
+    height: 100vh;
+    background: url(imagens/wallpaperflare.com_wallpaper\ \(30\).jpg);
+    background-position: center end;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    height: 6rem;
+    color: white;
+    background-color: #a58a75e6;
+    position: fixed;
+    width: 100vw;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+
+header > h1{
+    text-align: center;
+    padding-top: 18rem;
+    font-size: 6rem;
+    font-family: 'Prata', serif;
+    color: #ffa561e6;
+}
+
+main{
+    height: 443vh;
+}
+
+section{
+    height: 20.5rem;
+}
+
+section > h2{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    color: #ff7000e6;
+}
+
+.texto> p{
+    text-align: justify;
+    padding: 4rem;
+    font-size: 1.2rem;
+}
+
+.img{
+    height: 30rem;
+    background: url(imagens/wallpaperflare.com_wallpaper\ \(31\).jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img > h2{
+    text-align: center;
+    color: white;
+    background-color: #a58a75e6;
+    padding: .5rem;
+    font-size: 2rem;
+    border: 1px solid transparent;
+}
+
+div > h2{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    color: #ff7000e6;
+}
+
+.img-2{
+    height: 30rem;
+    background: url(imagens/wallpaperflare.com_wallpaper\ \(28\).jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-2 > h2{
+    text-align: center;
+    color: white;
+    background-color: #a58a75e6;
+    padding: .5rem;
+    font-size: 2rem;
+    border: 1px solid transparent;
+}
+
+.img-3{
+    height: 53rem;
+    background: url(imagens/wallpaperflare.com_wallpaper\ \(32\).jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+    align-content: stretch;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.img-3 > h2{
+    text-align: center;
+    color: white;
+    background-color: #a58a75e6;
+    padding: .5rem;
+    font-size: 2rem;
+    border: 1px solid transparent;
+}
+
+.img-3 > p {
+    color: white;
+    background-color: #a58a75e6;
+    padding: .5rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.img-4{
+    height: 45rem;
+    background: url(imagens/wallpaperflare.com_wallpaper\ \(33\).jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    align-content: stretch;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.img-4 >h2{
+    color: white;
+}
+
+.horario{
+    color: white;
+    font-size: 1.3rem;
+    display: block;
+}
+
+.horario > li{
+    padding: 1.5rem;
+}
+
+footer{
+    height: 6rem;
+    background-color: #303841;
+    color: white;
+}
+
+footer > h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+footer > h1 > a{
+    color: #2fbdeb;
+}
